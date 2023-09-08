@@ -5,6 +5,7 @@ import "./App.css";
 import Counter from "./counter";
 import Player from "./player";
 import Friends from "./friends";
+import Albums from "./albums";
 
 function App() {
   function clickMe() {
@@ -23,6 +24,7 @@ function App() {
       <Counter></Counter>
       <Player></Player>
       <Friends></Friends>
+      <Albums></Albums>
     </>
   );
 }
